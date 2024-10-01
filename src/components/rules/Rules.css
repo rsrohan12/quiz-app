@@ -1,0 +1,65 @@
+.rules-box {
+    padding: 1rem 0;
+}
+
+.start-btn {
+    background-color: cyan;
+    border: 1px solid black;
+}
+
+.rules-box {
+    background-color: black;
+    margin: 0 1rem;
+}
+
+.rules-box h2 {
+    text-align: center;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+.ol {
+    padding: 1rem 4rem;
+}
+
+.ol li {
+    margin: 1rem 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+
+.exit_continue--btns {
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.btns {
+    background-color: cyan;
+    border: 1px solid cyan;
+    margin-left: 10px;
+}
+
+.btns:active {
+    background-color: white;
+    color: black;
+    border-color: cyan;
+}
+
+.color-text {
+    color: cyan;
+    font-weight: 500;
+    text-decoration:underline;
+}
+
+@media screen and (max-width: 340px) {
+    .ol {
+        padding: 0 3rem;
+    }
+
+    .btns {
+        padding: 10px ;
+    }
+}

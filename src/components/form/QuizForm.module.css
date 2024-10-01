@@ -1,0 +1,47 @@
+.quizForm {
+    max-width: 95%;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.sub-btn {
+    background-color: cyan;
+    border: 1px solid black;
+}
+
+.sub-btn:focus {
+    background-color: black;
+    color: white;
+    border-color: cyan;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .quizForm {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .quizForm {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .quizForm {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .quizForm {
+        width: 18rem;
+    }
+}
